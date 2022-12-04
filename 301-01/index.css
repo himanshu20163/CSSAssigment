@@ -51,7 +51,7 @@
 
 .class2{
     width: 20%;
-    height: 106%;
+    height: 110%;
     transform:skew(345deg);
     background-color: #3a3a3a;
     display: flex;
@@ -86,7 +86,8 @@
     transform-origin: 100% 50%;
 }
 .div3{
-    width: 35%;
+    width: 45%;
     height: 70%;
+    text-align: justify;
     /* border: 2px solid red; */
 }
