@@ -1,0 +1,86 @@
+body{
+    margin:0px;
+    padding: 0px;
+    overflow: hidden;
+}
+.maincontainer{
+    overflow: hidden;
+    padding: 0px 0em;
+    width:100vw;
+    height:100vh;
+}
+.header{
+    padding:0rem 5rem;
+    background-color: #2874f0;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+
+}
+.logo{
+    padding-left: 100px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    color:#2874f0;
+}
+.search #seach_box {
+   width:400px;
+   height:30px;
+   outline: none;
+}
+#seach_box{
+    padding: 5px 20px;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px rgb(53, 52, 52);
+    opacity: 0.2px;
+}
+.icon{
+    margin-left:-30px;
+}
+#login{
+    height:30px;
+    width:120px;
+    background-color: white;
+    border-style: none;
+    color:#2874f0;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.seller{
+    color:white;
+}
+.morepart{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.more{
+    color:white;
+}
+.more p{
+    color:white;
+}
+.icon1{
+    padding: 0 10px;
+    color:white;
+}
+.second_header{
+    padding: 5px 50px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 1px 1px rgb(134, 134, 134);
+}
+.setimage{
+    width:60px;
+    height: 60px;
+}
+.grocery p{
+    font-weight: bold;
+}

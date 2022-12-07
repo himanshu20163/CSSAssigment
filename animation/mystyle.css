@@ -1,0 +1,131 @@
+.email-icon {
+    position: fixed;
+    bottom: 40%;
+    right: 1%;
+    width: 50px;
+    height: 50px;
+    z-index: 99;
+}
+
+
+.email-icon .icon_logo {
+    position: relative;
+    z-index: 9999;
+    padding: 5px;
+}
+
+a {
+    -webkit-transition: .5s;
+    transition: .5s;
+    outline: 0!important;
+    text-decoration: none;
+    color: #121521;
+}
+.email-icon .icon_logo>a>img {
+    width: 100%;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.email-icon .circle_waves1{
+    border-radius: 50%;
+    background-color: #617160;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    opacity: 0;
+    bottom: 1px;
+    left: 0;
+    z-index: 99;
+    /* animation: waves 4s infinite cubic-bezier(0.37, 0.1, 1, 0.21); */
+    animation: email 4s infinite;
+}
+@keyframes himanshu {
+    0% {
+        transform: scale(.55, .55);
+        opacity: .6;
+    }
+    100% {
+        transform: scale(1.8, 1.8);
+        opacity: 0;
+    }
+}
+
+.phone-icon {
+    position: fixed;
+    bottom: 30%;
+    right: 1%;
+    width: 49px;
+    height: 50px;
+    z-index: 100;
+}
+
+.phone-icon .icon_logo {
+    position: relative;
+    z-index: 9999;
+    padding: 5px;
+}
+
+.phone-icon .circle_waves1{
+    border-radius: 50%;
+    background-color: #617160;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    opacity: 0;
+    bottom: 1px;
+    left: 0;
+    z-index: 99;
+    /* animation: waves 4s infinite cubic-bezier(0.37, 0.1, 1, 0.21); */
+    animation: email 4s infinite;
+}
+@keyframes email {
+    0% {
+        transform: scale(.55, .55);
+        opacity: .6;
+    }
+    100% {
+        transform: scale(1.8, 1.8);
+        opacity: 0;
+    }
+}
+
+.map-icon {
+    position: fixed;
+    bottom: 20%;
+    right: 1%;
+    width: 49px;
+    height: 50px;
+    z-index: 100;
+}
+
+.map-icon .icon_logo {
+    position: relative;
+    z-index: 9999;
+    padding: 5px;
+}
+
+.map-icon .circle_waves1{
+    border-radius: 50%;
+    background-color: #617160;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    opacity: 0;
+    bottom: 1px;
+    left: 0;
+    z-index: 99;
+    /* animation: waves 4s infinite cubic-bezier(0.37, 0.1, 1, 0.21); */
+    animation: email 4s infinite;
+}
+

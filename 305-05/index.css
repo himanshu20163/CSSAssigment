@@ -1,0 +1,86 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    height:80vh;
+    width:100vw; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    width:50%;
+    height:90%;
+    border: 2px solid red;
+    display: flex;
+}
+.left{
+    width:40%;
+    height: 100%;
+    border:2px solid green;
+}
+.logo{
+    width:95%;
+    height:30%;
+    border:2px solid rgb(122, 120, 5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    width:95%;
+    height:40%;
+    border:2px solid rgb(122, 120, 5); 
+    
+}
+.twitch{
+    background-color: aqua;
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 25px;
+}
+.freegames{
+    width:95%;
+    height:30%;
+    border:2px solid rgb(122, 120, 5);
+    border-radius: 5px;
+    display: flex;
+}
+.freegames h4{
+    width: 40%;
+    text-align: left;
+}
+
+.right{
+    width:60%;
+    height:100%;
+    border:2px solid rgb(5, 13, 122);
+}
+.activegames{
+    width:95%;
+    height:40%;
+    border:2px solid rgb(5, 122, 21); 
+}
+.border_games{
+    padding: 5px;
+    width:75%;
+    border:5px solid black;
+    background-color: black;
+    border-radius: 25px;
+}
+.allgames{
+    width:95%;
+    height:60%;
+    border:2px solid rgb(8, 22, 10); 
+}
+
+
+    

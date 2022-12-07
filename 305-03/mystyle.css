@@ -1,0 +1,37 @@
+.maincontainer{
+    width:100%;
+    height: 100%;
+    display: flex;
+}
+.sedans{
+    background-color: #e38826;
+    width:33%;
+    height:20rem;
+    padding: 25px;
+}
+.sedans h1{
+    color:white;
+}
+.sedans p{
+    color:white;
+}
+.suvs{
+    background-color: #006970;
+    border: 2px solid rgb(82, 11, 11);
+    width:33%;
+    height:20rem;
+}
+.luxury{
+    background-color: #3a0042;
+    border: 2px solid red;
+    width:33%;
+    height:50px;
+}
+#more {
+    border-radius: 25px;
+    background-color:white;
+    border: 1px solid white;
+    padding: 15px 15px;
+    color:orange
+
+}
