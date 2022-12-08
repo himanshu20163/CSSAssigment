@@ -5,14 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .maincontainer{
+            width: 100vw;
+            height: 100vh;
+            /* border: 2px solid red; */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .subcontainer1{
+            width: 50%;
+            height: 80%;
+            /* border: 2px solid red; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .subcontainer2{
+            width: 50%;
+            height: 20%;
+            /* border: 2px solid red; */
+           padding-left: 4rem;
+        }
+    </style>
+
 </head>
 <body>
-    <div class="wrapper">
-        <div class="image">
-            <img src="./hair.jpeg" alt="" srcset="">
+    <div class="maincontainer">
+        <div class="subcontainer1">
+            <input type="image" src="./hair.jpeg" alt="">
         </div>
-        <div class="content">
+        <div class="subcontainer2">
             <p>Whiskers Hair Serum</p>
             <p><i class="fa fa-inr" aria-hidden="true"></i>550.00</p>
         </div>
