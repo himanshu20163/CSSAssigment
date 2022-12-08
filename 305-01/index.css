@@ -23,6 +23,7 @@
     padding: 10px 10px 10px 10px;
     justify-content:center;
     align-items:center;
+    flex-wrap: wrap;
 }
 img{
     padding-left: 10px;
