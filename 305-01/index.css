@@ -1,4 +1,11 @@
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
 .top-head {
+
     background-color: #0a0a49;
     box-sizing: border-box;
     border-bottom: 5px solid rgb(255, 187, 0);
@@ -11,7 +18,8 @@
     padding: 25px;
 }
 .catgallery{
-    padding: 10px 10px 10rem 8rem;
+    display: flex;
+    padding: 10px 10px 10px 10px;
 }
 .allcat{
     display: flex;
