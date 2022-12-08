@@ -20,6 +20,8 @@
 .catgallery{
     display: flex;
     padding: 10px 10px 10px 10px;
+    justify-content:center;
+    align-items:center;
 }
 .allcat{
     display: flex;
