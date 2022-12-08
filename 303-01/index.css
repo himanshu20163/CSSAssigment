@@ -1,0 +1,39 @@
+   .container {
+    background-color: rgb(255, 255, 255);
+    padding: 15px 0;
+    }
+    .marker {
+    width: 250px;
+    height: 35px;
+    margin: 10px auto;
+    box-shadow: 1px 5px 5px  rgb(175, 174, 174) ;
+    }
+    .shaow{
+        margin-left: 70px;
+        width: 150px;
+        height: 35px;
+        background-color: #ffffff;
+        opacity:0.6;
+    }
+    .line{
+        width: 5px;
+        height: 35px;
+        border-right: 4px solid black;
+        opacity: 2;
+        border-left: 4px solid black;
+    }
+    .red {
+    background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+    }
+    
+    .green {
+    background: linear-gradient(#55680D, #71F53E, #116C31);
+    }
+     
+    .blue {
+    background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+    }
+    
+    h1 {
+    text-align: center;
+    }    
