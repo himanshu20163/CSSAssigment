@@ -1,0 +1,137 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    width:100vw; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+}
+.wrapper{
+    width:70%;
+    height:100%;
+    box-shadow: 2px 2px 10px black;
+    display: flex;
+}
+.left{
+    width:30%;
+    height: 100%;
+    background-color: #e7faf8;
+    box-shadow: 2px solid white;
+    border-top-right-radius:20px ;
+    border-bottom-right-radius:20px ;
+}
+.logo{
+    width:95%;
+    height:30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo h4 {
+    color:rgb(103 132 162);
+}
+p{
+    color:rgb(103 132 162);
+    font-size: 10px;
+}
+
+.menu{
+    width:100%;
+    height:40%;
+    
+}
+.icon .fa-twitch{
+    width:50%;
+    height:10%; 
+}
+.twitch{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 25px;
+}
+.fa-brands .fa-twitch{
+  color:#09615f
+}
+.freegames{
+    
+    margin:10%;
+    width:80%;
+    height:20%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9fe6de;
+    border-radius: 5px;
+}
+.freegames h4{
+    width: 40%;
+    text-align: left;
+    font-weight: bold;
+}
+
+.right{
+    background-color: #caf3f2;
+    width:70%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+     align-items: center;
+     padding:20px;
+   
+}
+.activegames{
+   
+    width:95%;
+    height:15%;
+}
+.activegames h1{
+    color: rgb(103 132 162);
+}
+
+.border_games{
+    padding: 5px;
+    width:45%;
+    border:3px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+}
+.border{
+    padding: 5px;
+    width:100%;
+    border:2px solid #51ccca;
+    background-color: #51ccca;
+    border-radius: 25px;
+}
+.allgames{
+    width:95%;
+    height:70%;
+}
+.part{
+    width:100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    padding: 40px 0px;
+    margin:10px 0px;
+}
+.image img{
+    border-radius: 25px;
+}
+
+    
