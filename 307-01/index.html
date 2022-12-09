@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .maincontainer{
+            width: 100vw;
+            height: 100vh;
+            /* border: 2px solid red; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .subcontainer{
+            width: 80%;
+            height: 80%;
+            /* border: 2px solid red; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #191b27;
+            border-radius: 10px;
+        }
+        .row{
+            width: 90%;
+            height: 15%;
+            /* border: 2px solid red; */
+            margin-bottom: 1rem;
+            display: flex;
+        }
+        .white{
+            width: 90%;
+            height: 100%;
+            /* border: 2px solid red; */
+            background-color: white;
+            border-radius: 10px;
+        }
+        .c{
+            width: 10%;
+            height: 100%;
+            /* border: 2px solid red; */
+            background-color: #fc0067;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .bluelarge{
+            width: 28%;
+            height: 100%;
+            /* border: 2px solid red; */
+            margin-right: 1.5rem;
+            background-color: #65268f;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .bluesmall{
+            width: 10%;
+            height: 100%;
+            /* border: 2px solid red; */
+            /* margin-left: 1rem; */
+            background-color: #65268f;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .pinklarge{
+            width: 28%;
+            height: 100%;
+            /* border: 2px solid red; */
+            margin-right: 1.5rem;
+            background-color: #fc0067;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="maincontainer">
+        <div class="subcontainer">
+            <div class="row">
+                <div class="white"></div>
+                <div class="c">
+                    <h1 style="color: white">C</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="bluelarge">
+                    <h1 style="color: white">1</h1>
+                </div>
+                <div class="bluelarge">
+                    <h1 style="color: white">2</h1>
+                </div>
+                <div class="bluelarge">
+                    <h1 style="color: white">3</h1>
+                </div>
+                <div class="bluesmall">
+                    <h1 style="color: white">/</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="bluelarge">
+                    <h1 style="color: white">4</h1>
+                </div>
+                <div class="bluelarge">
+                    <h1 style="color: white">5</h1>
+                </div>
+                <div class="bluelarge">
+                    <h1 style="color: white">6</h1>
+                </div>
+                <div class="bluesmall">
+                    <h1 style="color: white">-</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="bluelarge">
+                    <h1 style="color: white">7</h1>
+                </div>
+                <div class="bluelarge">
+                    <h1 style="color: white">8</h1>
+                </div>
+                <div class="bluelarge">
+                    <h1 style="color: white">9</h1>
+                </div>
+                <div class="bluesmall">
+                    <h1 style="color: white">+</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="bluelarge">
+                    <h1 style="color: white">.</h1>
+                </div>
+                <div class="bluelarge">
+                    <h1 style="color: white">0</h1>
+                </div>
+                <div class="pinklarge">
+                    <h1 style="color: white">=</h1>
+                </div>
+                <div class="bluesmall">
+                    <h1 style="color: white">*</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
