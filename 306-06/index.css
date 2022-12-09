@@ -1,0 +1,104 @@
+*{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .maincontainer{
+            width: 100vw;
+            height: 100vh;
+            /* border: 2px solid red; */
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .subcontainer{
+            width: 80%;
+            height: 80%;
+            /* border: 2px solid red; */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .row{
+            width: 100%;
+            height: 49%;
+            /* border: 2px solid red; */
+            display: flex;
+            justify-content: space-between;
+        }
+        .upperleft{
+            width: 16%;
+            height: 100%;
+            /* border: 2px solid red; */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+        }
+        
+        .top{
+            width: 100%;
+            height: 49%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* border: 2px solid rgb(245, 240, 240); */
+            background:linear-gradient(
+                10deg,
+                #fee0ac,
+                #fd7eb3
+                
+            );
+        }
+        .uppermiddle{
+            width: 49%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* border: 2px solid red; */
+            background:linear-gradient(
+                10deg,
+                #d6a1fa,
+                #fb7ef6
+            );
+        }
+        .upperright{
+            width: 33%;
+            height: 100%;
+            /* border: 2px solid red; */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .lowerfivth,.lowerfotrh,.lowersecond, .lowerfirst{
+            width: 16%;
+            height: 100%;
+            /* border: 2px solid red; */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .lowerthird{
+            width: 32%;
+            height: 100%;
+            /* border: 2px solid red; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background:linear-gradient(
+                10deg,
+                #fb7ef6,
+                #d6a1fa
+                
+            );
+        }
+        #ide{
+            background:linear-gradient(
+                10deg,
+                #72c8f7,
+                #79ebe0
+                
+            );
+        }
